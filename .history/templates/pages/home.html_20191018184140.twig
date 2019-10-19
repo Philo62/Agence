@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block Title 'Agence Decoopman Immobilier' %}
+
+{% block body  %}
+<div class="jumbotron text-center">
+<h1>Ma super agence</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, sapiente, ea provident dicta exercitationem, rem officia ullam quae voluptatem repellat. Vitae obcaecati molestiae cum rem eligendi, hic minima! Maiores!
+Unde temporibus optio nam sit ipsa reprehenderit voluptas? Possimus repudiandae, omnis, soluta quis amet rem recusandae minus nemo sint accusantium excepturi voluptatem qui alias similique eveniet, repellat deleniti commodi reiciendis.
+</p>
+</div>
+<div class="container"></div>
+<h2>Les derniers biens</h2>
+<div class="class row flex"></div>
+{% for property in properties %}
+<div class="class col3"></div>
+{% endblock %}
