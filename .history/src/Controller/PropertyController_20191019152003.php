@@ -12,7 +12,7 @@ class PropertyController extends AbstractController
 {
 // ci dessous $em pour entity manager... mais bon //
     
-public function __construct(PropertyRepository $repository, EntityManagerInterface $em)
+public function __construct(PropertyRepository $repository, EntityManager $em)
     {
         $this->repository = $repository;
     }
